@@ -1,34 +1,96 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
-.navbar-default {
-  background: #46505C;
-  border-color: #46505C;
-  border-radius: 0px;
-  color: white;
-  margin: 0;
-}
+  .sin-visa {
+    color: #7AAFEF;
+  }
 
-.navbar-default .navbar-nav>li>a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: white;
-}
+  .con-visa {
+    color: #F8C41C;
+  }
 
-.navbar-default .navbar-nav>li>a:hover {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: #F96363;
-}
+  .al-llegar {
+    color: #EA4F0F;
+  }
 
-.navbar-default .navbar-brand {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  color: white;
-}
+  .hasVisa {
+    color: #ffffff;
+    background-color: #F8C41C;
+  }
+
+  .noVisa {
+    color: #ffffff;
+    background-color: #7AAFEF;
+  }
+
+  .onArrival {
+    color: #ffffff;
+    background-color: #EA4F0F;
+  }
+
+  .atHome {
+    color: #ffffff;
+    background-color: #923398;
+  }
+
+
+  .navbar-default {
+    background: #46505C;
+    border-color: #46505C;
+    border-radius: 0px;
+    color: white;
+    margin: 0;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #F96363;
+  }
+
+  .navbar-default .navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+  .vertical-row-padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .gray-background {
+    background-color: #F5F5F5;
+  }
+
+  .table {
+    background-color: #ffffff;
+  }
+
+  .thead {
+    background-color: #46505C;
+    color: #fff;
+    border: 1px solid #fafafa;
+    font-weight: 400;
+  }
+
   .title {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 28px;
   }
+
+  .subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
 
   .description {
     font-family: 'Open Sans', sans-serif;
@@ -39,6 +101,35 @@
   .centered {
     text-align: center;
   }
+
+
+    ul.share-buttons{
+      list-style: none;
+      padding: 0;
+      text-align: left;
+    }
+
+    ul.share-buttons li{
+      display: inline;
+    }
+
+    ul.share-buttons .sr-only {
+      position: absolute;
+      clip: rect(1px 1px 1px 1px);
+      clip: rect(1px, 1px, 1px, 1px);
+      padding: 0;
+      border: 0;
+      height: 1px;
+      width: 1px;
+      overflow: hidden;
+    }
+
+    .fa.fa-facebook {
+      color: #3773C4;
+    }
+    .fa.fa-twitter {
+      color: #1dcaff;
+    }
 
   .svg-box {
     height: 600px;
@@ -76,9 +167,9 @@
     font-weight: 600;
     position:absolute;
     padding: 10px;
-    width:150px; 
-    height:130px; 
-    background: #E9E9E9; 
+    width:150px;
+    height:130px;
+    background: #E9E9E9;
     z-index:10000;
   }
 

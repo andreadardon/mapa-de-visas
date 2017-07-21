@@ -57,8 +57,11 @@ function getVisaFromObject(object){
   else if (object.visa == "Exento de Visa") {
     return "noVisa"
   }
-  else {
+  else if (object.visa == "Visa al llegar") {
     return "onArrival"
+  }
+  else {
+    return "atHome"
   }
 }
 
