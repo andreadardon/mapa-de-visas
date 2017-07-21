@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+.navbar-default {
+  background: #46505C;
+  border-color: #46505C;
+  border-radius: 0px;
+  color: white;
+  margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #F96363;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+  .title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  .description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  .centered {
+    text-align: center;
+  }
+
+  .svg-box {
+    height: 600px;
+  }
+
+  .footer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
+
+  #footer {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background: #46505C;
+  }
+
+  .fa-heart {
+    color: #F96363;
+  }
+
+  .guate-blue {
+    background-color: #7DC5D7;
+    height: 20px;
+  }
+
+  .guate-white {
+    border: 1px solid #f6f6f6;
+    background-color: white;
+    height: 20px;
+  }
+
+  #tooltip {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    position:absolute;
+    padding: 10px;
+    width:150px; 
+    height:130px; 
+    background: #E9E9E9; 
+    z-index:10000;
+  }
+
+  .row-blue {
+    background-color: #A3CFDA;
+    height: 30px;
+  }
+
+  thin{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+  }
