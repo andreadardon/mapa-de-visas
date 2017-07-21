@@ -1,5 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
 
+  a {
+    color: #7DC5D7;
+    text-decoration: none; /* no underline */
+  }
+
+  a:hover {
+    color: #F96363;
+    text-decoration: none; /* no underline */
+  }
+
   .sin-visa {
     color: #7AAFEF;
   }
@@ -41,6 +51,10 @@
     margin: 0;
   }
 
+  .navbar-default .navbar-brand:hover{
+    color: #7DC5D7;
+  }
+
   .navbar-default .navbar-nav>li>a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -50,7 +64,7 @@
   .navbar-default .navbar-nav>li>a:hover {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    color: #F96363;
+    color: #7DC5D7;
   }
 
   .navbar-default .navbar-brand {
